@@ -1,122 +1,77 @@
-<link rel="stylesheet"  href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-
-<style type="text/css">
-	.heading-text {
-		font-family: Lobster,Monospace;
-		color: #000000;
-	}
-	.smaller-image {
-		width: 700px;
-	}
-</style>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Engineering Entrance Buddy</title>
+	<title>Homepage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+
+
 </head>
 <body>
-	<header>
-		
-		<nav class="navbar navbar-inverse bg-inverse">
-			<div class="container-fluid">
-   				<ul class="nav navbar-nav" style="color:#000000">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toogle" data-toogle="dropdown" href="jeemain.html">JEE Mains<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Previous Year Papers</a></li>
-							<li><a href="#">Important Books</a>></li>
-							<li><a href="#">Eligibilty</a></li>
-							<li><a href="#">Syllabus</a></li>
-							<li><a href="#">Paper Analysis</a></li>
-							<li><a href="#">Sample Papers</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toogle" data-toogle="dropdown" href="jeeadvanced.html">JEE Adavnced<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Previous Year Papers</a></li>
-							<li><a href="#">Important Books</a>></li>
-							<li><a href="#">Eligibilty</a></li>
-							<li><a href="#">Syllabus</a></li>
-							<li><a href="#">Paper Analysis</a></li>
-							<li><a href="#">Sample Papers</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toogle" data-toogle="dropdown" href="bitsat.html">BITSAT<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Previous Year Papers</a></li>
-							<li><a href="#">Important Books</a>></li>
-							<li><a href="#">Eligibilty</a></li>
-							<li><a href="#">Syllabus</a></li>
-							<li><a href="#">Paper Analysis</a></li>
-							<li><a href="#">Sample Papers</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toogle" data-toogle="dropdown" href="ipu.html">IPU<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Previous Year Papers</a></li>
-							<li><a href="#">Important Books</a>></li>
-							<li><a href="#">Eligibilty</a></li>
-							<li><a href="#">Syllabus</a></li>
-							<li><a href="#">Paper Analysis</a></li>
-							<li><a href="#">Sample Papers</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toogle" data-toogle="dropdown" href="#">Sample<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Previous Year Papers</a></li>
-							<li><a href="#">Important Books</a>></li>
-							<li><a href="#">Eligibilty</a></li>
-							<li><a href="#">Syllabus</a></li>
-							<li><a href="#">Paper Analysis</a></li>
-							<li><a href="#">Sample Papers</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+	<div class="container-fluid">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="1">WebSiteName</a>
 
-	<div>
-		<div id="main-content-part-1" >
-			<div class="thumbnail">
-				<img src="images/Teacher.jpeg" class="img-responsive" alt="Teaching" style="width: 30%">
-					<div class="caption">
-				<h2 class="text-center text-primary">Engineering Examination Preparation</h2>
-				<p class="text-center" >Worried about the Entrance Exam ? Have a lot of exam related queries ? <br>Don't worry you are just at the right place. We provide a one step solution to all your needs.<br> We provide you with the important dates, previous year paper's and detailed analysis of the papers which includes the chapterwise weightage of last year papers.<br> We provide you with excellent sample papers to match the exam difficulty. <br>The quick and fast revision techniques are also provided to brush up your concepts before the exam. Happy Studying!!!</p>
-				</div>
-			</div>
-		</div>
+      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="1">Practice Papers</a></li>
+        <li><a href="quick-revision.html">Quick Revision Sheet</a></li> 
+        <li><a href="1">Important Dates</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
 
-		<div id="main-content-part-2">
-			<div class="thumbnail">
-				<div class="caption">
-					<h2 class="text-center text-primary">Latest News</h2>
-					<h5 class="text-left text-danger">JEE mains forms are out. <a href="http://jeemain.nic.in/jeemainapp/root/loginpage.aspx">Click here to apply</a></h5>
-					<h5 class="text-left text-danger">JEE mains last date extended upto 16th January 2017. <a href="http://jeemain.nic.in/jeemainapp/root/loginpage.aspx">Click here to apply</a>
-				</div>
-			</div>
-		</div>
+
+<div class="modal-body row main-row" style="padding: 5%; margin-top: 10px">
+  <div class="col-md-2 m container-fluid notice-container jumbotron" style="background-color: #2E2D88; color: white; " >
+    <h3 class="notice">Notices</h3>
+    <ul>
+      <li>
+          <a href="#">Jee Main Online</a>
+      </li>
+      <li>
+          <a href="#">Jee Main Online</a>
+      </li>
+      <li>
+          <a href="#">Jee Main Online</a>
+      </li>
+      <li>
+          <a href="#">Jee Main Online</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-md-5 m container-fluid">
+  	<div class="image" style="padding: 10%">
+  			<img src="img/quick-revision.jpg" class="img-responsive" align="middle">
+        <h2 style="color: #000">Quick Revision</h2>
 	</div>
-
-	<footer style="background-color: silver">
-		<div class="footer-box">
-			<div class="footer-box-title"><h3>Copyright</h3></div>
-			<div class="footer-box-entry">Copyright &copy;2017 <a href="sudhanshu96.github.io">Sudhanshu Vohra</a> and <a href="#">Shubham Sapra</a></div>
-		</div>
-		<div class="footer-box">
-			<div class="footer-box-title"><h3>About Us</h3></div>
-			<div class="footer-box-entry">We are currently working on website for JEE Mains</div>
-		</div>
-	</footer>
-		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    	
+  </div>
+  <div class="col-md-5 m" style="padding: 5%">
+    <img src="img/previous-year-papers.jpg" class="img-responsive" align="middle">
+        <h2 style="color: #000">Practice Papers</h2>
+  </div>
+</div>
+	</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 </body>
 </html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
