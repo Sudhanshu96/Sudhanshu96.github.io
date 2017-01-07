@@ -82,7 +82,8 @@ img{
 .m{
 	overflow: auto;
 	position: relative;
-	align-content: center;
+	align-content: center;	
+	width: 100%;
 	
 }
 .image img {
