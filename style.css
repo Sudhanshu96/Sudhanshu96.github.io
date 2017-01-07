@@ -1,12 +1,12 @@
 body{
 	padding-top: 70px;
-	background-color: #FFFFFF;
+	background-color: #55bbea;
 }
 .navbar-default {
     background-color: #00897B;
     border-color: #42A5F5;
-    opacity: 0.4;
-    filter: opacity(40);
+    opacity: 0.8;
+    filter: opacity(80);
 }
 /* title */
 .navbar-default .navbar-brand {
