@@ -1,11 +1,12 @@
 body{
 	padding-top: 70px;
-	background-color: white;
-
+	background-image: url(img/physics.jpg);
 }
 .navbar-default {
     background-color: #00897B;
     border-color: #42A5F5;
+    opacity: 0.7;
+    filter: opacity(70);
 }
 /* title */
 .navbar-default .navbar-brand {
@@ -75,7 +76,8 @@ body{
 
 img{
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 50px;
+    margin-bottom: 20px;
 	width: 80%;
 	height: 80%;
 }
@@ -112,3 +114,40 @@ img{
 a{
 	text-decoration: none;
 }
+
+.site-footer{
+        background-color: #222;
+        color: #FFF;
+        margin: 30px 30px;
+        padding: 30px 30px;
+        }
+
+        .bottom-footer {
+            border-top: 1px solid #b2b2b2;
+            margin-top: 10px;
+            padding-top: 10px;
+            color: #b2b2b2;
+        }
+
+        .footer-inline li {
+            display: inline;
+        }
+
+        .footer-inline {
+            text-align: center;
+            list-style: none;
+        }
+
+        .footer-inline li:not(:first-child):before
+        {
+            content: '|';
+            padding: 0px 10px;
+        }
+        .footer-inline a {
+            color: #b2b2b2;
+        }
+
+        .footer-inline a:hover {
+            text-decoration: none;
+            color: #FFF;
+        }
