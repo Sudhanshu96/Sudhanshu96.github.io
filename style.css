@@ -103,6 +103,8 @@ img{
 }
 .notice-container{
 	height: 100%;
+	background-color: #55bbea;
+	color: #000000;
 }
 .notice{
 	font-weight: bold;
